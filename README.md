@@ -1,6 +1,17 @@
-# Qiniu gocloud.dev blob driver
+# Qiniu Go Cloud Development Kit (Go CDK) Driver
 
-七牛 kodoblob 为 [gocloud.dev](https://gocloud.dev/) 提供了驱动，可以通过使用 [blob](https://gocloud.dev/blob) 包对七牛 Bucket 中的 Blob 进行读写，列举或删除。
+===============
+
+[![LICENSE](https://img.shields.io/github/license/qiniu/go-cdk-driver.svg)](https://github.com/qiniu/go-cdk-driver/blob/main/LICENSE)
+[![Build Status](https://github.com/qiniu/go-cdk-driver/workflows/tests/badge.svg)](https://github.com/qiniu/go-cdk-driver/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/go-cdk-driver)](https://goreportcard.com/report/github.com/qiniu/go-cdk-driver)
+[![GitHub release](https://img.shields.io/github/v/tag/qiniu/go-cdk-driver.svg?label=release)](https://github.com/qiniu/go-cdk-driver/releases)
+[![codecov](https://codecov.io/gh/qiniu/go-cdk-driver/branch/main/graph/badge.svg)](https://codecov.io/gh/qiniu/go-cdk-driver)
+[![GoDoc](https://godoc.org/github.com/qiniu/go-cdk-driver/kodoblob?status.svg)](https://godoc.org/github.com/qiniu/go-cdk-driver/kodoblob)
+
+[![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://qiniu.com/)
+
+Qiniu Go CDK Driver 为 [gocloud.dev](https://gocloud.dev/) 提供了 kodoblob 驱动，可以通过使用 [blob](https://gocloud.dev/blob) 包对七牛 Bucket 中的 Blob 进行读写，列举或删除。
 
 ## 代码案例
 
@@ -14,7 +25,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
@@ -60,7 +71,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
@@ -94,7 +105,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
@@ -129,7 +140,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
@@ -162,7 +173,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
@@ -183,18 +194,18 @@ func main() {
 
 ## 贡献记录
 
-- [所有贡献者](https://github.com/bachue/go-cloud-dev-qiniu-driver/contributors)
+- [所有贡献者](https://github.com/qiniu/go-cdk-driver/contributors)
 
 ## 联系我们
 
 - 如果需要帮助，请提交工单（在portal右侧点击咨询和建议提交工单，或者直接向 support@qiniu.com 发送邮件）
 - 如果有什么问题，可以到问答社区提问，[问答社区](http://qiniu.segmentfault.com/)
 - 更详细的文档，见[官方文档站](http://developer.qiniu.com/)
-- 如果发现了bug， 欢迎提交 [issue](https://github.com/bachue/go-cloud-dev-qiniu-driver/issues)
-- 如果有功能需求，欢迎提交 [issue](https://github.com/bachue/go-cloud-dev-qiniu-driver/issues)
-- 如果要提交代码，欢迎提交 [pull request](https://github.com/bachue/go-cloud-dev-qiniu-driver/pulls)
+- 如果发现了bug， 欢迎提交 [issue](https://github.com/qiniu/go-cdk-driver/issues)
+- 如果有功能需求，欢迎提交 [issue](https://github.com/qiniu/go-cdk-driver/issues)
+- 如果要提交代码，欢迎提交 [pull request](https://github.com/qiniu/go-cdk-driver/pulls)
 - 欢迎关注我们的[微信](http://www.qiniu.com/#weixin) [微博](http://weibo.com/qiniutek)，及时获取动态信息。
 
 ## 代码许可
 
-The Apache License v2.0. 详情见 [License 文件](https://github.com/bachue/go-cloud-dev-qiniu-driver/blob/master/LICENSE).
+The Apache License v2.0. 详情见 [License 文件](https://github.com/qiniu/go-cdk-driver/blob/main/LICENSE).

@@ -1,4 +1,4 @@
-module github.com/bachue/go-cloud-dev-qiniu-driver
+module github.com/qiniu/go-cdk-driver
 
 go 1.21
 

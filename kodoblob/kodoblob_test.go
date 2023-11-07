@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	_ "github.com/bachue/go-cloud-dev-qiniu-driver/kodoblob"
+	_ "github.com/qiniu/go-cdk-driver/kodoblob"
 	"gocloud.dev/blob"
 )
 
